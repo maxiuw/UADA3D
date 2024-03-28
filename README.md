@@ -12,6 +12,7 @@ In this study, we address a gap in existing unsupervised domain adaptation appro
 
 provides a schematic overview of our method UADA3D. In each iteration, a batch of samples $Q$ from source $D_s$ and target $D_t$ domain is fed to the feature extractor $f_{\theta_f}$. Next, for each sample, features are extracted, and fed to the detection head $h_{\theta_y}$ that predicts 3D bounding boxes. The object detection loss (described in supplementary materials) is calculated only for the labeled samples from source domain. The probability distribution alignment branch uses the domain discriminator $g_{\theta_D}$ to predict from which domain samples came from, based on the extracted features $X$ and predicted labels $\hat{Y}$. The domain loss $L_C$ is calculated for all samples. Next, the $L_C$ is backpropagated through the discriminators, and through the gradient reversal layer (GRL) with the coefficient $\lambda$, that reverses the gradient during backpropagation, to detection head and feature extractor. This adversarial training scheme works towards creating domain invariant features. Thus, our network learns how to extract features that will be domain invariant but also how to provide accurate predictions. Therefore, we seek for the optimal parameters $\theta_f*$, $\theta_y*$, and $\theta_D*$.
 
+**Code coming soon :grin:**
 ## Cite our Paper
 ```
 @article{wozniak2024uada3d,
