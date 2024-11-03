@@ -1,0 +1,19 @@
+#spconv-cu113
+numpy
+llvmlite
+numba
+#torch>=1.1
+tensorboardX
+easydict
+pyyaml
+scikit-image
+tqdm
+torchvision
+SharedArray
+pyqt5
+nuscenes-devkit==1.0.5
+tensorflow==2.0.0
+tensorflow-gpu==2.0.0
+tensorboardx  
+waymo-open-dataset-tf-2-0-0==1.5.0
+#SharedArray error: upgrade to numpy==1.21.6
