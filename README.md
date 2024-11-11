@@ -1,4 +1,5 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2403.17633-b31b1b.svg)](https://arxiv.org/abs/2403.17633)
+[![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-blue)](https://ieeexplore.ieee.org/document/10737391)
 
 # UADA3D: Unsupervised Adversarial Domain Adaptation for 3D Object Detection with Sparse LiDAR and Large Domain Gaps
 ### Accepted to IEEE Robotics and Automation Letter (RA-L) 2024
@@ -39,7 +40,7 @@ python adaptive_train.py --cfg_file cfgs/custom_models/${CFG_FILE} --batch_size 
 ```
 
 ### Models
-Pretrained models can be found [Here](https://kth-my.sharepoint.com/:f:/g/personal/maciejw_ug_kth_se/EqGk-27mGU5JkJOp1sm2bIABHrBS27HZMssBV61phyACrw?e=m3UNRX). 
+Pretrained models can be found [Here](https://kth-my.sharepoint.com/:f:/g/personal/maciejw_ug_kth_se/Er9cPOwvrSJCv_VkO_ny7H4B8FCdtCbNDhdcIcbwNiFW1g?e=L6QJVc). 
 
 Cite our work:
 ```bibtex
